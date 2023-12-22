@@ -1,6 +1,5 @@
-import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './pages/components/Header'
+import Header from '../../components/header/header.jsx'
 
 function App() {
 
