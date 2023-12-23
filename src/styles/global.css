@@ -3,7 +3,8 @@
 
 :root {
   --color-p1: #2D2D2D;
-  
+  --color-p2: #FFF;
+  --color-p3: #009379;
 }
 
 * {
