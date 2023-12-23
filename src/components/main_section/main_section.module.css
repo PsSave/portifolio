@@ -1,0 +1,83 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 444px;
+    width: 100%;
+    padding: 42px 24px;
+    gap: 68px;
+    position: relative;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    gap: 24px;
+    padding: 0 24px;
+    width: 620px;
+    height: 328px;
+}
+
+.introduce h4{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.introduce h2{
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.introduce p{
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.button button{
+  padding: 19px 59px;
+  background: var(--color-p1);
+  border: 5px solid var(--color-p1);
+  width: 211px;
+  height: 78px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--color-p2);
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.button button:hover{
+  background: var(--color-p1);
+  border: 5px solid var(--color-p3);
+  transition: 0.5s;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 480px;
+    height: 360px;
+}
+
+.image img {
+  width: 350px;
+  height: 100%;
+  padding: 5px 24px;
+  border-radius: 45% 45% 0 0;
+  object-fit: cover;
+}
+
