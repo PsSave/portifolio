@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './header.module.css';
 import Sun from '../../assets/icons/Sun.svg';
-
-const header = () => {
+import Moon from '../../assets/icons/Moon.svg';
+const header = ({handleToggleTheme, toggleTheme}) => {
   return (
     <div className={styles.header}>
       <div className={styles.header_logo}>
@@ -13,7 +13,10 @@ const header = () => {
           <li>About</li>
           <li>Projects</li>
           <li>Contact</li>
-          <img src={Sun} alt="" />
+          {
+            toggleTheme ? <img src={Moon} alt="" onClick={handleToggleTheme}/> :<img src={Sun} alt="" onClick={handleToggleTheme}/>
+          }
+          
         </ul>
       </div>
     </div>

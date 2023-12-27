@@ -14,7 +14,31 @@
   margin: 0;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
+  
 }
 
+
+.dark_mode  {
+  background: var(--color-p1);
+  color: var(--color-p2);
+  h1, h2, h3, h4, h5, h6, p, span, a, li, ul, button {
+    color: var(--color-p2);
+  }
+  button {
+    background: var(--color-p2);
+    border: 5px solid var(--color-p2);
+    color: var(--color-p1);
+  }
+  button:hover {
+    background: var(--color-p2);
+    border: 5px solid var(--color-p3);
+    color: var(--color-p1);
+  }
+
+}
+
+
+.light_mode {
+  background: var(--color-p2);
+  color: var(--color-p1);
+}

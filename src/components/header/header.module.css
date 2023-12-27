@@ -5,6 +5,8 @@
   height: 78px;
   color: var(--color-p1);
   padding: 0 42px;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .header_logo h1{
