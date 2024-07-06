@@ -104,7 +104,7 @@ body {
   color: #333;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 0.15em solid #333;
+  border-right: 0.15em solid #3566cf;
   width: 14ch;
   animation: typing 2s steps(14), blink-caret 0.75s step-end infinite;
 }
@@ -136,9 +136,9 @@ body {
 }
 
 .btn_intro span {
-  color: #333;
+  color: #3566cf;
   background-color: #f4f4f4;
-  border: 2px solid #333;
+  border: 2px solid #3566cf;
   cursor: pointer;
   transition: all 0.3s ease;
   opacity: 0;
@@ -164,7 +164,7 @@ body {
 /*Portfolio*/
 
 #portfolio {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: stretch;
