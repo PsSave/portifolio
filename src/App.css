@@ -1,0 +1,16 @@
+main {
+  min-width: 320px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 640px) {
+  main {
+    max-width: 640px;
+    padding: 0 10px;
+  }
+}
