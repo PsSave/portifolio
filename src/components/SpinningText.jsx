@@ -81,7 +81,7 @@ export function SpinningText({
           href={letterLinks[index]?.href || "#"}
           key={`${index}-${letter}`}
           variants={itemVariants}
-          className="absolute left-1/2 top-1/2 inline-block text-blue-500"
+          className="absolute left-1/2 top-1/2 inline-block text-[#3c8875]"
           style={{
             "--index": index,
             "--total": letters.length,

@@ -31,6 +31,7 @@ export default function Hero() {
         className="absolute top-5 left-10 w-20 h-20"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
+        whileHover={{ scale: 1.1 }}
         transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.5 }}
       />
       <motion.div
