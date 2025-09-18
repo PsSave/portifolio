@@ -58,7 +58,7 @@ export default function About() {
         At the moment, I am working at{" "}
         <LinkPreview
           url="https://www.linkedin.com/company/gravtacreative/posts/?feedView=all"
-          imageSrc="https://media.licdn.com/dms/image/v2/D560BAQETU9PeV8P3tQ/company-logo_200_200/B56ZYW1HMPGcAI-/0/1744139744313/gravtacreative_logo?e=1751500800&v=beta&t=nLe9ErhvktDz4_benVNZ7JEzQZjPqEpnga-ZfR4cpaA"
+          imageSrc="https://media.licdn.com/dms/image/v2/D560BAQETU9PeV8P3tQ/company-logo_200_200/B56ZYW1HMPGcAI-/0/1744139744313/gravtacreative_logo?e=1761177600&v=beta&t=UilGHRhHXwNXRpV8DksjRJiNT_QHeh0QeVzVQy79Zd8"
           isStatic
           className="font-bold italic"
         >
